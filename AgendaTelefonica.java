@@ -31,4 +31,12 @@ public class AgendaTelefonica
     {
        return agenda.get(nombre);
     }
+    
+    /**
+     * Imprime todos los nombres con sus números en la pantalla.
+     */
+    public void printAllNames()
+    {
+        System.out.println(agenda.keySet());
+    }
 }
